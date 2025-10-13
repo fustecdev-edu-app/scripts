@@ -15,7 +15,7 @@
         var subsegund = 60-segundo
         var subminu = 60-minu
         cont= subminu
-        var diasf = 12-dia
+        var diasf = 13-dia
         var horasf = diasf*24
         var horaRegress = horasf = horasf-hor
         if (horaRegress <=48) {
