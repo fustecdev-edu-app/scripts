@@ -1,4 +1,5 @@
-
+var festas=""
+var status =""
 
 
 var image = [
