@@ -1,5 +1,5 @@
-var festas=""
-var status =""
+var festas =""
+var statu ="none"
 
 
 var image = [
@@ -85,8 +85,8 @@ m=m+1
 pes=pes+ parseInt(d)
 gre.textContent="total de dias      "+pes +"   dia "+d+"  / mês "+m+" / ano "+ano
 
-document.querySelector(".solenidades").style.display=status
-document.querySelector(".titlefesta").textContent=festa[d]
+document.querySelector(".solenidades").style.display= statu
+document.querySelector(".titlefesta").textContent=festas
 
 while(dias<=pes){
   anB = parseInt(pes/360) 
