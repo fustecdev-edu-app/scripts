@@ -1,5 +1,6 @@
-var festas =""
-var statu ="none"
+        
+var festa =""
+var status =""
 
 
 var image = [
@@ -39,6 +40,9 @@ var image = [
     
 ]
 
+
+
+
 var pass = document.querySelector(".diabtn")
 var img = document.querySelector(".imgcal")
 var mostra = document.querySelector(".mostra")
@@ -49,7 +53,7 @@ var dias = image;
 var cont =1 
 var mes = 1
 var ano = 0
-var dias = 1
+var dias = -22
 
 
 var ordmes = [
@@ -85,8 +89,8 @@ m=m+1
 pes=pes+ parseInt(d)
 gre.textContent="total de dias      "+pes +"   dia "+d+"  / mês "+m+" / ano "+ano
 
-document.querySelector(".solenidades").style.display= statu
-document.querySelector(".titlefesta").textContent=festas
+document.querySelector(".solenidades").style.display=status
+document.querySelector(".titlefesta").textContent=festa[d]
 
 while(dias<=pes){
   anB = parseInt(pes/360) 
