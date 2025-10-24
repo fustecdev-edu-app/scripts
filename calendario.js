@@ -1,6 +1,4 @@
 
-import { festa } from "./featas.js";
-import { status } from "./featas.js";
 
 
 var image = [
